@@ -1,0 +1,98 @@
+/*最大值为992px时显示的效果*/
+@media screen and (max-width:992px){
+	#head .logo{
+	position: relative;
+	max-width:1280px;
+	height: 70px;
+	/*width: 992px;*/
+	margin: 0 auto;
+	background:url(../img/logo.png) no-repeat center/100px;
+}
+#head .nav > li {
+	display: none;
+	}
+	#head .menu{
+		position: absolute;
+		top: 0;
+		line-height: 70px;
+	}
+	#banner .word{
+		position: absolute;
+		left: 25%;
+	}
+	#banner .word .titleOne{
+		display: none;
+	}
+	#banner .word .titleOneMax{
+		font-size: 40px;
+	font-weight: bold;
+	margin: 0 auto;
+	}
+	#banner .word .btn{
+		border: none;
+	background-color: rgb(54,133,190);
+	}
+#banner .word .btn:hover{
+	background-color: rgb(0,100,143);
+	transition: 1s;
+	color: white;
+	}
+	#banner .jiantou{
+		display: none;
+	}
+	#simple .bg{
+		display: none;
+	}
+	#simple .simpleMax{
+		margin: auto;
+		width: 90%;
+	}
+#indrotuce ul li{
+	float: none;
+	width: 100%;
+}
+#indrotuce ul li:nth-child(8) a{
+	text-decoration: none;
+	font: 14px;
+	padding-left: 6%;
+}
+#advandage .flex ul li{
+	width: 80%;
+	margin:5px auto;
+	padding: 15px 0;
+	}
+#history .pic img,#history .pic span{
+		display: none;
+	}
+#history .set ul li img{
+	margin: auto;
+}
+#history .partner ul li p{
+	display: none;
+}
+#history .partner ul{
+  	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 445px;
+	padding-bottom: 150px;
+	margin: auto;
+  }
+   #history .partner ul li{
+ 	border: 1px solid #999999;
+ }
+ #judge{
+ 	display: none;
+ }
+ 
+ #link .phone li img{
+ 	float: right;
+ }
+ 
+ #link .information ul:nth-child(2),#link .information ul:nth-child(3),#link .information ul:nth-child(4),#link .information ul:nth-child(5){
+ 	display: none;
+ }
+ #aside{
+ 	display: none;
+ }
+}

@@ -1,0 +1,38 @@
+/*第二个小视频部分css*/
+#simple{
+	padding-top: 100px;
+	text-align: center;
+}
+#simple .title{
+	font-size: 60px;
+	color: rgb(101,101,101);
+	padding-bottom: 20px;
+}
+#simple .concent{
+	font-size: 20px;
+	line-height: 50px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	color: #666;
+}
+
+#simple .bg{
+	    position: relative;
+		max-width:1000px;
+		height:700px;
+		margin:auto;
+		padding-top: 40px;
+		padding-left: 120px;
+		padding-right: 120px;
+		box-sizing: border-box;
+		background: url(../img/simple/1.png) no-repeat;
+}
+#simple .bg .webm{
+	position: absolute;
+	overflow: hidden;
+	left: 125px;
+	top: 40px;
+	min-height:410px;
+	min-width:760px;
+	
+}

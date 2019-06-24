@@ -1,0 +1,158 @@
+/*最小值为992px时各部分显示的效果*/
+@media screen and (min-width:992px){
+	
+  #head .logo{
+	position: relative;
+	height: 70px;
+	padding: 0 20%;
+	background:url(../img/logo.png) no-repeat left/100px;
+	}
+	#head .nav {
+		position: absolute;
+	top: 0;
+	left: 120px;
+	}
+ #head .nav > li {
+	float: left;
+	list-style: none;
+	padding:0 20px;
+	}
+#head .nav > li > a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	line-height: 70px;
+}
+#head .nav li:nth-child(5) span{
+	position: absolute;
+	top: 30px;
+	display: inline-block;
+	margin-left: 10px;
+	height: 3px;
+	width:3px;
+	border-left: 1px solid white;
+	border-right: 1px solid transparent;
+	border-top: 1px solid white;
+	border-bottom: 1px solid transparent;
+	transform: rotate(-135deg);
+}	
+#head .menu{
+	display: none;
+	}
+	
+#banner .shadow{
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 100%;
+	height: 850px;
+	z-index: 5;
+	background-color: rgba(48,38,38,0.7);
+}
+#banner .word .titleOne{
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+#banner .word .titleOneMax{
+	display: none;
+	}
+ #banner .word .titleOne span{
+	    font-weight:normal;
+		animation:run 500ms linear infinite;
+}
+@keyframes run{
+		0%{
+			opacity:0;
+		}
+		50%{
+			opacity:1;
+		}
+		100%{
+			opacity:0;
+		}
+}
+#simple .simpleMax{
+	display: none;
+}
+#indrotuce ul li{
+	float: left;
+	width: 50%;
+	padding-top:70px ;
+	height: 600px;
+}
+#indrotuce ul li:nth-child(8) a{
+	display: none;
+}
+#advandage .flex ul li{
+	width: 31%;
+	margin: 5px;
+	padding: 30px 0;
+	}
+#history .pic{
+	position: relative;
+	display: flex;
+	width: 200%;
+}
+
+#history .pic ul li{
+	box-sizing: border-box;
+	width: 12%;
+	padding:20px 42px;
+}
+#history .pic li img{
+	width: 100%;
+	height: 100%;
+}
+#history .pic span{
+	position: absolute;
+	top: 45%;
+	font-size:30px ;
+}
+#history .pic span:nth-child(1){
+	left:10px;
+}
+#history .pic li:nth-child(2){
+	padding-left: 7px;
+}
+#history .pic span:nth-child(6){
+	right: 50%;
+}
+#history .set ul{
+	display: flex;
+	margin:50px 13%;
+	width: 80%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#history .set ul li{
+	width: 30%;
+}
+#history .set ul li img{
+	width: 100%;
+	height:100%;
+}
+#history .partner ul{
+  	display: flex;
+	flex-direction: row;
+	width: 1230px;
+	flex-wrap: wrap;
+	padding-bottom: 150px;
+	margin: auto;
+  }
+ #history .partner ul li{
+ 	padding:  40px 3% 0;
+ 	margin-left:10px;
+ 	border: 1px solid #999999;
+ }
+#history .partner ul li p{
+	font-size: 16px;
+	padding: 20px 0;
+}
+#link .phone li{
+	float: left;
+	padding:100px 4%;
+	color: rgb(96,96,96);
+}
+
+}

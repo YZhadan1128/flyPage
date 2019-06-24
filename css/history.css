@@ -1,0 +1,83 @@
+#history{
+	overflow: hidden;
+	padding-top: 100px;
+	text-align: center;
+	margin: auto;
+}
+
+#history .choose p:nth-child(1),#history .set p:nth-child(1){
+	font-size: 40px;
+	color: rgb(51,51,51);
+	padding: 30px;
+}
+#history .choose p:nth-child(2),#history .set p:nth-child(2){
+	font-size: 18px;
+	color: rgb(169,169,169);
+}
+#history .set{
+	margin-top: 100px;
+}
+#history .set .case{
+	margin: auto;
+	height: 40px;
+	width: 200px;
+	margin-bottom: 50px;
+	background-color: rgb(97,176,255);
+	border-radius:20px;
+	line-height: 40px;
+	font-size: 18px;
+	color: white;
+}
+#history .set .case:hover{
+	background-color: rgb(62,163,255);
+}
+#history .tool{
+	position: relative;
+	min-height:958px;
+}
+#history .tool .bgTool{
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	background:url(../img/history/tool/1.jpg) no-repeat center/cover ;
+	
+}
+#history .tool .bgTool p{
+	margin: auto;
+	width: 70%;
+	color: white;
+}
+#history .tool .bgTool p:nth-child(1){
+	margin-top: 80px;
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+#history .tool .bgTool > span{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	border-top:2px solid white;
+	
+}
+#history .tool .bgTool p:nth-child(3){
+	font-size: 16px;
+	margin-bottom: 80px;
+}
+#history .tool .bgTool img{
+	margin: auto;
+	width: 70%;
+}
+#history .partner{
+	padding-top: 120px;
+}
+ #history .partner > p{
+ 	font-size: 30px;
+ 	padding-bottom: 50px;
+ } 
+  
+#history .partner ul li:hover{
+ 	border: 1px solid  rgb(62,163,255);
+ }
